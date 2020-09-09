@@ -1,0 +1,144 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+/* for all */
+* {
+    margin:0;
+    padding:0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+
+}
+
+button { 
+    cursor: pointer;
+}
+
+/* navbar */
+
+.main .nav ul  li {
+    display: inline-block;
+    margin-left: 74px;
+
+}
+
+.nav {
+    position: absolute;
+    right: 5%;
+    top: 41px;
+    font-size: 22px;
+}
+
+a {
+    text-decoration:none;
+    color:#000;
+}
+
+.main {
+    width: 100%;
+    height: 660px;
+}
+
+/* background */
+
+.bg img{
+    width: 560px;
+}
+.bg {
+    position: absolute;
+    right:0;
+    top:145px;
+}
+ 
+/* content */
+
+.content h1 {
+    font-size: 40px;
+}
+
+.content p {
+    font-size: 22px;
+    width: 485px;
+    margin-top: 29px;
+}
+
+.browse {
+    width: 250px;
+    height: 66px;
+    color: #fff;
+    background-color: #3C9CCC;
+    box-shadow: -4px 4px 4px #3C9CCC;
+    border: none;
+    border-radius: 10px;
+    margin-top: 29px;
+    outline:none;
+    font-size: 22px;
+}
+
+.content {
+    position: absolute;
+    top: 335px;
+    left: 235px;
+}
+ /* footer */
+
+ .footer {
+     width: 100%;
+     height: 460px;
+     background-color: #0C0C2C;
+     color: #fff;
+    position: relative;
+ }
+
+ .footer h1 , .footer p {
+     text-align: center;
+ }
+
+ .footer h1 {
+    position: absolute;
+    top: 80px;
+    left: 503px;
+ }
+
+ .footer p {
+     position: absolute;
+     top: 207px;
+     left: 509px;
+ }
+
+ 
+.sub {
+    width: 250px;
+    height: 79px;
+    color: #fff;
+    background-color: #3C9CCC;
+    border: none;
+    border-radius: 10px;
+    outline:none;
+    position: absolute;
+    top: 329px;
+    left: 760px;
+    font-size: 22px;
+}
+
+.footer textarea {
+    width: 355px;
+    height: 79px;
+    resize: none;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    position: absolute;
+    top: 329px;
+    left: 385px;
+}
+::placeholder {
+    color: #000;
+    opacity: 80%;
+    padding: 22px 183px 31px 14px;
+    font-family:  'Roboto', sans-serif;
+    font-size: 20px;
+}
